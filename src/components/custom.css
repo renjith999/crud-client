@@ -1,0 +1,22 @@
+.post_list:hover .edit {
+	display: block;
+}
+
+.edit {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+	z-index: 3;
+}
+
+.edit a {
+	color: red;
+	font-size: 25px;
+}
+.edit a .edit {
+	    right: 40px;
+    top: 2px;
+}
